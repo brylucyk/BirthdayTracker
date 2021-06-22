@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Birthday Tracker</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- landing page -->
+    <string name="landing_upcoming_birthdays">No upcoming events</string>
+    <string name="landing_description">Keep track of birthdays and gift ideas</string>
+
+    <!-- about page -->
+    <string name="about_app_use">Use this app to: </string>
+    <string name="about_list_1">Easily set birthday reminders, including card and gift reminders</string>
+    <string name="about_list_2">Save gift ideas</string>
+    <string name="about_list_3"></string>
+
+    <!-- set reminder -->
+    <string name="set_reminder_heading">Set Birthday Reminders</string>
+    <string name="set_reminder_name">Name</string>
+    <string name="set_reminder_birthday">Birthday</string>
+    <string name="set_reminder_select_date">Choose Date</string>
+    <string name="set_reminder_bd_recur">Recurring</string>
+
+    <string name="set_reminder_extra_reminders">Set Extra Reminders:</string>
+    <string name="set_reminder_birthday_card">Birthday Card</string>
+    <string name=""></string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
