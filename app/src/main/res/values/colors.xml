@@ -8,16 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="green_A700">#ff00e676</color>
-    <color name="green_A400">#ff00e676</color>
-    <color name="pink_A400">#fff50057</color>
-    <color name="yellow_500">#ffffc107</color>
-    <color name="indigo_500">#ff536dfe</color>
-    <color name="indigo_700">#ff303F9F</color>
-
-    <color name="teal">#ffb5dbde</color>
-    <color name="dark_green">#ff00303a</color>
-    <color name="dark_teal">#ff2a99a4</color>
-    <color name="pink">#fffe6291</color>
-    <color name="yellow">#fff8d23f</color>
+    <color name="bg_dark_end">#ffc6dce9</color>
+    <color name="bg_light_end">#fffdfeff</color>
+    <color name="mid_purple">#ff8181c9</color>
+    <color name="light_purple">#ffc2c3f1</color>
+    <color name="mid_pink">#ffe07f79</color>
+    <color name="light_pink">#ffffc3c8</color>
+    <color name="steel_blue">#ff384d5e</color>
+    <color name="grey">#ffc7cbce</color>
 </resources>

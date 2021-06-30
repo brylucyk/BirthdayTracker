@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".birthday_list">
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".BirthdayList">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageView
+        android:id="@+id/imageViewBdayList"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="91dp"
+        android:src="@drawable/cupcake" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/allbdays_headings"
+        android:textAlignment="center"
+        android:textAppearance="@style/HeadingFontStyle" />
+
+    <Button
+        android:id="@+id/btnClearAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/ButtonFontStyle"
+        android:text="@string/btn_clear_all" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bdayListRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -4,46 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".FirstFragment">
 
-    <ImageView
-        android:id="@+id/cupcake"
-        android:layout_width="143dp"
-        android:layout_height="96dp"
-        android:src="@drawable/cupcake_round"
-        app:layout_constraintBottom_toTopOf="@+id/appName"
+    <Button
+        android:id="@+id/btnUpcoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/ButtonFontStyle"
+        android:text="@string/landing_upcoming_birthdays"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/appName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="100dp"
         android:text="@string/app_name"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAppearance="@style/HeadingFontStyle"
+        app:layout_constraintBottom_toTopOf="@+id/appDescription"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/upcomingBirthdays"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/open_sans"
-        android:text="@string/landing_upcoming_birthdays"
-        android:textColor="@color/indigo_500"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="148dp"
+        android:layout_height="186dp"
+        android:src="@drawable/cupcake"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpcoming"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appDescription" />
+
+    <TextView
+        android:id="@+id/appDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textAppearance="@style/MainFontStyle"
+        android:text="@string/landing_description"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appName" />
 

@@ -9,29 +9,31 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.BirthdayTracker.AppBarOverlay">
+        android:theme="@style/Theme.BirthdayTracker.AppBarOverlay"
+        app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:background="@color/bg_dark_end"
             app:popupTheme="@style/Theme.BirthdayTracker.PopupOverlay"
-            app:subtitleTextColor="#2962FF"
-            app:titleTextColor="@color/white" />
+            app:titleTextAppearance="@style/ToolBarStyle"
+            app:titleTextColor="@color/steel_blue" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <include
         layout="@layout/content_main"
         android:background="#000000"
-        android:backgroundTint="#304FFE" />
+        android:backgroundTint="@color/bg_dark_end" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|end"-->
+<!--        android:layout_margin="@dimen/fab_margin"-->
+<!--        app:srcCompat="@android:drawable/ic_menu_my_calendar" />-->
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

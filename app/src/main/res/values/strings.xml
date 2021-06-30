@@ -1,33 +1,75 @@
 <resources>
-    <string name="app_name">Birthday Tracker</string>
+    <string name="app_name">BirthdayTracker</string>
     <string name="action_settings">Settings</string>
 
 
     <!-- landing page -->
     <string name="landing_upcoming_birthdays">No upcoming events</string>
-    <string name="landing_description">Keep track of birthdays and gift ideas</string>
+    <string name="landing_description">Stay on top of birthdays and gift ideas</string>
 
     <!-- about page -->
+    <string name="about_heading">About this App</string>
+    <string name="about_version">version 1.0</string>
+    <string name="about_created_by">http://brylucyk.com</string>
     <string name="about_app_use">Use this app to: </string>
-    <string name="about_list_1">Easily set birthday reminders, including card and gift reminders</string>
-    <string name="about_list_2">Save gift ideas</string>
-    <string name="about_list_3"></string>
+    <string name="about_list_1">- Easily set birthday reminders, including card and gift reminders</string>
+    <string name="about_list_2">- Save gift ideas</string>
 
-    <!-- set reminder -->
-    <string name="set_reminder_heading">Set Birthday Reminders</string>
-    <string name="set_reminder_name">Name</string>
-    <string name="set_reminder_birthday">Birthday</string>
-    <string name="set_reminder_select_date">Choose Date</string>
-    <string name="set_reminder_bd_recur">Recurring</string>
+    <!-- set birthday reminder -->
+    <string name="set_reminder_heading">Set Birthday Reminder</string>
+    <string name="set_reminder_important">Important!</string>
+    <string name="set_reminder_note">These reminders will be set as recurring indefinitely.</string>
+    <string name="set_reminder_link">Help! How do I turn them off?</string>
+    <string name="set_reminder_name">Name of Birthday-Haver</string>
+    <string name="set_reminder_date">00/00/00</string>
+    <string name="set_reminder_choose_date">Choose Date</string>
 
     <string name="set_reminder_extra_reminders">Set Extra Reminders:</string>
-    <string name="set_reminder_birthday_card">Birthday Card</string>
-    <string name=""></string>
+    <string name="set_reminder_card">Card</string>
+    <string name="set_reminder_cake">Cake</string>
+    <string name="set_reminder_gift">Gift</string>
 
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="set_other_reminder">Other reminder (please specify)</string>
+    <string name="set_reminder">Set</string>
+
+    <string-array name="reminder_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="reminder_unit">
+        <item>days prior</item>
+        <item>weeks prior</item>
+    </string-array>
+
+    <!-- help fragment -->
+    <string name="help_heading">Help</string>
+    <string name="help_recurring_heading">Delete Recurring Events</string>
+
+    <!-- gift fragment -->
+    <string name="gift_heading">Gift Ideas for Name</string>
+    <string name="gift_gifts">No gift ideas saved</string>
+
+    <string name="first_fragment_label"></string>
+    <string name="second_fragment_label">BirthdayTracker</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+
+    <!-- gift recycler view -->
+    <string name="btn_delete_gift">Delete Gift</string>
+
+    <!-- birthdays recycler view -->
+    <string name="allbdays_headings">All Birthdays</string>
+    <string name="btn_no_bdays">No saved birthdays</string>
+    <string name="btn_clear_all">Clear All Birthdays</string>
+    <string name="btn_delete_bday">Remove Birthday</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
